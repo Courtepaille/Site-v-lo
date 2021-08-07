@@ -1,0 +1,161 @@
+/* CSS HEX 
+--nickel: #7a7265ff;*
+--light-cyan: #ddfff7ff;
+--liver-chestnut: #8e6e53ff;
+--camel: #dea062ff;
+--jet: #2e2b2bff;
+--rouge: #d10000ff;
+--platinium: #eaeaeaff;
+--violet: #7e30c4ff ;
+*/
+
+
+/*ICI ON VA S'OCCUPER DU STYLE DE TOUTES LES PAGES*/
+
+/*RESET*/
+*{
+	margin:0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+
+
+/*RESET LIST*/
+
+ol, ul{
+	list-style: none;
+	vertical-align: baseline;
+	margin:0;
+	padding: 0;
+}
+
+
+
+
+/*TOUT LES GROS TITRES*/
+
+h1{
+	color: #2e2b2bff;
+	font-size: 4vw;
+	font-family: sans-serif, Arial;
+	text-align: center;
+	margin: 0;
+
+}
+
+
+
+/*HAUT DE PAGE (NAV ET ICONS)*/
+
+.logo {
+	margin-top: 10px;
+}
+
+div#content div.head {
+
+	background: url(https://miro.medium.com/max/4800/1*jy3ZTeNzmb7Ezra6V9Q9BA.jpeg) no-repeat fixed 50% 50% ;
+	text-align: center;
+	background-size: 100%;
+	background-position: 0 0;
+
+}
+
+h3{
+	font-size: 3vw;
+	font-weight: 800;
+	color: #2e2b2bff;
+}
+
+
+a{
+	text-decoration: none;
+	color: #eaeaeaff;
+	list-style: none;
+	font-size: 1.5vw;
+	font-family: sans-serif;
+}
+
+div#content div.head nav{
+	position:absolute;
+	top:20px;
+	right: 20px;
+	height: 50px;
+}
+
+
+
+
+/*menu choix vélo*/
+
+.head img.icon{
+
+	position: absolute;
+	position: fixed;
+	left:20px;
+	top:20px;
+}
+
+.models{
+	padding: 10px;
+	padding-top: 80px;
+	text-align: center;
+}
+
+.models div{
+	display: inline-block;
+	width: 48%;
+
+
+}
+
+.models img{
+	width: 45%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*TOUT NOS BOUTONS ANIMES*/
+
+
+
+
+/*----------PIED DE PAGE-----------------*/
+
+
+footer p{
+	font-family: sans-serif;
+	font-size: 12px;
+}
+
+
+footer a{
+	color: #2e2b2bff;
+}
+
+
+footer{
+	text-align: center;
+}
